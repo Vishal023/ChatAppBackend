@@ -5,7 +5,7 @@ const pusher = new Pusher({
     key: process.env.CHAT_APP_PUSHER_KEY,
     secret: process.env.CHAT_APP_PUSHER_SECRET,
     cluster: process.env.CHAT_APP_PUSHER_CLUSTER,
-    useTLS: true,
+    useTLS: true
 });
 
 module.exports = {pusher};
